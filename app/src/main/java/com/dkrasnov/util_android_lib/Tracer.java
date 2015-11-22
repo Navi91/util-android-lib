@@ -15,6 +15,10 @@ public class Tracer {
         return tag != null && message != null;
     }
 
+    private void test() {
+
+    }
+
     public static void error(String tag, String error) {
         if (isNormalStrings(tag, error)) {
             Log.e(tag, error);
